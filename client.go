@@ -1,13 +1,11 @@
-package client
+package main
 
 
 import (
 	"context"
 	"fmt"
-	
 	"log"
-
-	pb "module/netxd_customer" 
+	pb "github.com/yamyy123/netxd-customer/netxd_customer"
 	"google.golang.org/grpc"
 )
 
